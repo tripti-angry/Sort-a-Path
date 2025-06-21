@@ -1,5 +1,12 @@
 # Sort-a-Path
 
+Screenshots
+
+  <img src="./S1.png" width="45%" alt="Hero Section">
+  <img src="./S2.png" width="45%" alt="Projects Grid">
+  <img src="./S3.png" width="45%" alt="Contact Form">
+
+
 Overview
 Sort-a-Path is an interactive web application built with React and JSX, designed to visualize sorting algorithms and grid-based pathfinding algorithms. It provides a user-friendly interface to explore algorithms like Bubble Sort, Selection Sort, Insertion Sort, Quick Sort, Dijkstra's Algorithm, A* Search, BFS, and DFS. The application features real-time animations, customizable settings, and detailed statistics to enhance understanding of algorithmic processes.
 Features
@@ -49,45 +56,11 @@ Google Fonts (Inter)
 Canvas: Used for rendering the sorting visualizer
 No backend: Purely client-side application
 
-Setup Instructions
-
-Clone or Download the Project:
-
-Copy the index.html file containing the application code.
-
-
-Serve the Application:
-
-Since the project uses CDN-hosted dependencies, no build step is required.
-Place index.html in a web server directory (e.g., using http-server, VS Code Live Server, or any static file server).
-Alternatively, open index.html directly in a modern web browser (e.g., Chrome, Firefox) using the file:// protocol, though some features may be limited due to CORS restrictions with CDNs.
-
-
-Dependencies:
-
-The application loads the following dependencies via CDN:
-React: https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.development.js
-ReactDOM: https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.development.js
-Babel: https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js
-Google Fonts (Inter): https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap
-
-
-Ensure an internet connection is available to load these resources.
-
 
 Run the Application:
 
 Open the index.html file in a browser.
 The application will automatically render with the sorting visualizer as the default view.
-
-
-
-Usage
-
-Select Visualizer Type:
-
-Use the dropdown in the header to switch between Sorting Visualizer and Pathfinding Visualizer.
-
 
 Sorting Visualizer:
 
@@ -95,7 +68,6 @@ Choose Algorithm: Select from Bubble Sort, Selection Sort, Insertion Sort, or Qu
 Adjust Settings:
 Use the "Array Size" slider (10–100) to change the number of elements.
 Use the "Speed" slider (10–500 ms) to adjust animation speed.
-
 
 Controls:
 Generate Array: Create a new random array.
@@ -133,12 +105,6 @@ Navigation:
 The "How to Use" section at the bottom provides detailed instructions for each visualizer.
 
 
-
-File Structure
-
-index.html: The main file containing HTML, CSS, and JavaScript (React/JSX) code.
-Includes inline styles and scripts for simplicity.
-No additional files are required due to CDN usage.
 
 
 
